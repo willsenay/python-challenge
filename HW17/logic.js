@@ -105,17 +105,7 @@ function createMap(earthquakes) {
     collapsed: false
   }).addTo(myMap);
 
-
-  ///////////////////////////////////////////////////////////////////
-  ///// 
-  ///// I tried working with the in class examples and I found tons 
-  ///// of example code online about how to make a legend in leaflet
-  ///// but I get this type error "t._controlCorners" is undefined and
-  ///// I don't know how to fix it. The following is my best attempt 
-  ///// at making a legend.
-  ///// 
-  //////////////////////////////////////////////////////////////////
-
+  // legend
   var info = L.control({
     position: "bottomright"
   });
